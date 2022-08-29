@@ -1,0 +1,85 @@
+.gallery {
+    /* BEGIN (write your solution here) */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
+    /* END */
+  
+    box-sizing: border-box;
+    width: 60%;
+    height: 700px;
+  
+    padding: 20px 30px;
+  
+    background: #f9f9f9;
+  }
+  
+  .gallery-item {
+    box-sizing: border-box;
+    width: 32%;
+    margin-bottom: 10px;
+    padding: 10px;
+  
+    box-shadow:
+      0 2px 2px rgb(0 90 250 / 5%),
+      0 4px 4px rgb(0 90 250 / 5%),
+      0 8px 8px rgb(0 90 250 / 5%),
+      0 16px 16px rgb(0 90 250 / 5%);
+  }
+  
+  /* BEGIN (write your solution here) */
+  .height-120 .height-140 {
+    order: 1;
+  }
+  .height-190 .height-160 .height-150 {
+    order: 2;
+  }
+  .height-170 .height-180 {
+    order: 3;
+  }
+  /* END */
+  
+  .gallery-blue .gallery-item {
+    background: #90caf9;
+  }
+  
+  .height-120 {
+    height: 120px;
+   order: 1;
+  }
+  
+  .height-140 {
+    height: 140px;
+   order: 1;
+  }
+  
+  .height-150 {
+    height: 150px;
+    order: 2;
+  }
+  
+  .height-160 {
+    height: 160px;
+    order: 2;
+  }
+  
+  .height-170 {
+    height: 170px;
+    order: 3;
+  }
+  
+  .height-180 {
+    height: 180px;
+    order: 3;
+  }
+  
+  .height-190 {
+    height: 190px;
+    order: 2;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
